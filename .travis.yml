@@ -7,8 +7,8 @@ deploy:
   region: "ap-south-1"
   app: "mnd"
   env: "Mnd-env"
-  bucket_name: "mnd-bucket"
-  bucket_path: "docker"
+  bucket_name: "elasticbeanstalk-ap-south-1-036295041873"
+  bucket_path: "mnd"
   on:
    branch: master
   access_key_id: "$AWS_ACCESS_KEY"
